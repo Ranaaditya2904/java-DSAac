@@ -5,7 +5,7 @@ public class DiagonalSum {
         int sum=0;
         for(int i=0;i<arr.length;i++){
                 sum=sum+arr[i][i];
-                if(i!=arr.length-1)
+                if(i!=arr.length-1-i)
                     sum+=arr[i][arr.length-i-1];
             }
             return sum;
@@ -26,7 +26,7 @@ public class DiagonalSum {
         }
 
         int result=Dsum(arr);
-        System.out.println("THe sum is: "+result);
+        System.out.println("The sum is: "+result);
 
     }
 }
