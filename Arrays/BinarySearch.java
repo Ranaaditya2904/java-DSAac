@@ -5,7 +5,7 @@ public class BinarySearch {
         int start=0;
         int end=arr.length-1;
         while(start<=end){
-            int mid=(start+end)/2;
+            int mid=start+(end-start)/2;
             if(arr[mid]==key)
                 return mid;
             else if(arr[mid]>key)
@@ -22,3 +22,25 @@ public class BinarySearch {
         System.out.println("Element found at"+index);
     }
 }
+
+/*public static int binarySearch(int[] arr, int key, int start, int end) {
+
+    if (start > end) {
+        return -1;
+    }
+
+    int mid = start + (end - start) / 2;
+
+    if (arr[mid] == key) {
+        return mid;
+    }
+
+    else if (arr[mid] > key) {
+        return binarySearch(arr, key, start, mid - 1);
+    }
+
+    else {
+        return binarySearch(arr, key, mid + 1, end);
+    }
+}
+    */
