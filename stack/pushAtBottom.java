@@ -19,6 +19,6 @@ public class pushAtBottom {
         s.push(2);
         s.push(3);
         pushAtBot(s,4);
-
+        System.out.println(s);
     }
 }
