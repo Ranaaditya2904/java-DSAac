@@ -1,3 +1,10 @@
+/*Find the First Duplicate Element in an Array
+
+Given an integer array arr of size n, return the first duplicate element present in the array. 
+If there are multiple duplicate values, return the one that is encountered first while scanning the array from left to right. 
+If no duplicate exists, return -1.
+*/
+
 public class DuplicateIdentify {
     public static int findDuplicate(int[] arr){
         

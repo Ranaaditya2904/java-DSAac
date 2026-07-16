@@ -1,5 +1,3 @@
-
-
 // A logistics company stores the daily load handled by warehouses in an array.
 // The management wants to identify a warehouse position such that:
 
